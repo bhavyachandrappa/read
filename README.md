@@ -6,27 +6,6 @@
 ## Libraries
 **Picasso-2.4.0:** an Android library for image downloading and caching. It is used to load YouTube video image thumbnail for our YouTube search function. Library source: https://github.com/square/picasso
 
-**Google API client-1.23.0:**  Library source: 
-
-**Google API client android-1.23.0:** 
-
-**Google API services youtube-1.23.0:** Library source: https://developers.google.com/api-client-library/java/apis/youtube/v3
-
-**Google HTTP client-1.23.0:**
-
-**Google HTTP client android-1.23.0:** an Android library for accessing Google Play services. https://developers.google.com/api-client-library/java/google-http-java-client/android
-
-**Google HTTP client jackson2-1.23.0:**
-
-**Google oauth client-1.23.0:**
-
-**jackson-core-2.1.3:**
-
-**jsr305-1.3.9:**
-
-**YouTubeAndroidPlayerApi:**
-
-
 ## Installation Notes
 No special instructions
 
@@ -100,6 +79,8 @@ public void onBackPressed() {</br>
       Registered user can save notebooks in Firebase database
 8.	Open notebooks: </br>
       Registered user can review his/her notebooks saved in Firebase database at any time
+9. To delete note: </br>
+      Long press on the note item that needs to be deleted from the displayed note list
 
 
 ## Final Project Status
@@ -123,6 +104,7 @@ Registered user has full access to following functionalities in addition to the 
 #### Bonus Functionality:
 In addition to the basic and expected functionalities, the bonus functionalities are listed as follows:
 1.	Use Firebase for backend implementation (Completed)
+2. Implemented the application for Landscape mode (Completed)
 
 ## Sources
 [1]. “Android onFragmentInteraction(Uri uri) 方法.” [Online]. Available: http://blog.csdn.net/fengge34/article/details/46391453. [Accessed: 06-Apr-2018].
